@@ -1,0 +1,32 @@
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Odin build artifacts
+_build/
+_obj/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+
+
+
