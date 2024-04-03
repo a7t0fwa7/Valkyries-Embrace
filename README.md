@@ -4,23 +4,23 @@
 
 ## Overview
 
-I was curious about a new language I saw on Youtube and decided to try my hand on it and repurposed an old `C `remote shellcode loader I had, into ODIN the Odin programming language that allows executing shellcode on a remote system. I named this as fun gesture do to the Norse Mythologies Programming language. Just like the Valkyries of Norse mythology, who selectively choose the fallen warriors to escort to the afterlife, this tool enables you to target and execute shellcode on chosen systems with precision and a little bit of stealth.
+I was curious about a new language I saw on Youtube and decided to try my hand on it and repurposed an old `C `remote shellcode loader I had, into ODIN. The I named this as fun gesture towards the Norse Mythologies Programming language. Just like the Valkyries of Norse mythology, who selectively choose the fallen warriors to escort to the afterlife, this tool enables you to target and execute shellcode on chosen systems with precision and a little bit of stealth.
 
 The tool establishes a connection to a remote server *(You Set that up yourself and if you don't know how to do it then you shouldn't be playing around with this in the first place ;)* ), it retrieves the shellcode payload, and executes it on the local machine.
 
 ## Why Odin and not another language...?
 
-1. Odin is a systems programming language designed for high performance, modern systems, and data-oriented programming. As a remote shellcode loader, Valkyrie's Embrace would benefit from Odin's low-level control over memory layout and management.[7]
-2. Odin has built-in support for custom memory allocators, which provides more control and flexibility compared to languages like C for a tool like this that interacts closely with memory.[12]
-3. Odin provides quality-of-life improvements over C such as a built-in slice type, tagged unions, generics, and better error handling, while still allowing low-level systems programming.[2][11]
-4. Odin has an engaged community and an open-source standard library, making it pleasant to work with for a passion project like this.[8]
-5. Odin is a newer language exploring interesting design choices like built-in SOA data types. Using it for this project allows you to explore and evaluate Odin's unique features and approach.[2][7]
+1. Odin is a systems programming language designed for high performance, modern systems, and data-oriented programming. As a remote shellcode loader, Valkyrie's Embrace would benefit from Odin's low-level control over memory layout and management.
+2. Odin has built-in support for custom memory allocators, which provides more control and flexibility compared to languages like C for a tool like this that interacts closely with memory.
+3. Odin provides quality-of-life improvements over C such as a built-in slice type, tagged unions, generics, and better error handling, while still allowing low-level systems programming.
+4. Odin has an engaged community and an open-source standard library, making it pleasant to work with for a passion project like this.
+5. Odin is a newer language exploring interesting design choices like built-in SOA data types. Using it for this project allows you to explore and evaluate Odin's unique features and approach.
 
 To compile Valkyrie's Embrace, you can go to these resources on installing and setting up Odin:
 
 - Official Odin installation guide for Windows, macOS and Linux [here](https://odin-lang.org/docs/install/)
 - Video tutorial on setting up Odin with SDL2 on Windows [here](https://www.youtube.com/watch?v=_PfYX4vvJh)
-- Video guide on installing Odin on Linux [here](https://www.youtube.com/watch?v=5GxJiQx2UHo) 
+- Video guide on installing Odin on Linux [here](https://www.youtube.com/watch?v=5GxJiQx2UHo)
 
 Odin's combination of low-level control, modern features, and community engagement made it an appealing choice for me to create a small project like Valkyrie's Embrace. The official docs and community video guides provide good resources to help others get up and running with Odin.
 
